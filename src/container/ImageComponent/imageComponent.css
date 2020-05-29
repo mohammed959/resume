@@ -1,0 +1,209 @@
+.main{
+  cursor: pointer;
+  position: relative;
+}
+.main{
+  background-color: #1F2833;
+
+}
+.main2{
+  background-color: #29394d;
+  
+}
+
+.image{
+  transition: transform 1s;
+}
+.image:hover{
+  transition: translateY(-10px);
+  background-color: #242d38
+}
+
+.paragraph{
+  font-size: 23px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+@media screen and (min-width: 360px){
+  .paragraph2{
+    
+  }
+  
+  .image{
+    width:100%;
+    margin-top: 30px;
+  }
+  .graduationImage{
+    width: 60%;
+  }
+  .mainthirdContainer{
+    display: grid;
+    grid-template-columns: auto ;
+    grid-row-gap: 50px;
+    background-color: lightgrey;
+  }
+  .projectDiv1{
+    width: 100%;
+    
+    border-right  : 1px solid black;
+    clip-path: polygon(0 0, 100% 0, 78% 100%, 0 100%);
+    margin-top:80px;
+    
+    height: 100%;
+   
+  }
+  .projectDiv{
+    margin-top: 60px;
+  }
+  .projectDiv2{
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  
+  .main::after
+{
+  position: absolute;
+  content: '';
+  width: 120px;
+  height: 120px;
+  background-color: #1F2833;
+  bottom: 0;
+  z-index: 100;
+  bottom: -1em;
+}
+
+.main::after{
+  left: 50%;
+  transform: skew(0,-20deg);
+  left: 9;
+
+}
+  .image{
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 78% 100%, 0 100%);
+  
+  }
+  .image:hover{
+    
+    transition:'all 2s '
+
+
+  }
+  .projectDiv{
+    width: 100%;
+    
+    border-right  : 1px solid black;
+    clip-path: polygon(0 0, 100% 0, 78% 100%, 0 100%);
+    margin-top:120px;
+    
+    height: 100%;
+   
+  }
+  .projectDiv2{
+    width: 100%;
+    
+    border-right  : 1px solid white;
+    
+    margin-top:120px;
+    
+    height: 100%;
+   
+
+  }
+  .graduationImage{
+    width: 60%;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+  }
+  .projectDiv1{
+    width: 100%;
+    
+    border-right  : 1px solid black;
+    clip-path: polygon(0 0, 100% 0, 78% 100%, 0 100%);
+    margin-top:180px;
+    
+    height: 100%;
+   
+  }
+  .mainthirdContainer{
+    display: grid;
+    grid-template-columns: auto auto
+  }
+  .thirdContainer{
+    height: 60vh;
+  }
+  
+  .secondContainer{
+    
+      height:70vh;
+      
+      
+  }
+  .secondContainer_f1{
+    color:'white';
+    margin-top: 70px;
+    margin-left: 40px;
+  }
+}
+.Achievements{
+   
+
+}
+.textContainer {
+    
+    display: inline-block;
+    transform-origin: center;
+   
+  }
+  .text, .text2 {
+   margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+  margin-top: 40px;
+   color: gold;
+  }
+  .fourthContainer{
+      overflow: hidden;
+  }
+  #pinContainer {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  #pinContainer .panel {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    text-align: center;
+  }
+  .panel span {
+    position: relative;
+    display: block;
+    top: 50%;
+    font-size: 80px;
+  }
+  
+  .panel.blue {
+    background-color:#222d3b;
+  }
+  
+  .panel.turqoise {
+    background-color: #202c3b;
+  }
+  
+  .panel.green {
+    background-color: #273445;
+  }
+  
+  .panel.bordeaux {
+    background-color: #273445;
+  }
+  
+  .celimage{
+      height: 300px;
+      width: 300px;
+
+  }
