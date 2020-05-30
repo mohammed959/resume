@@ -43,8 +43,8 @@
 
 
 @media screen and (min-width: 360px){
-  .paragraph2{
-    
+  .prBigDiv{
+    margin-top: 10px;
   }
   .main3{
     background-color: #29394d;
@@ -87,6 +87,9 @@
 }
 
 @media screen and (min-width: 1000px) {
+  .prBigDiv{
+    margin-top: 180px;
+  }
   .main3{
     background-color: #29394d;
     height: 100vh;

@@ -171,7 +171,7 @@ export default class Resume extends React.Component {
                             >
                                 <section className="panel blue graduationEvent ">
                                     <div className="">
-                                        <div style={{ marginTop: '20px' }}>
+                                        <div className="prBigDiv" style={{ }}>
                                             <div className="container-fluid" style={{ backgroundColor: '', height: '120vh' }}>
                                                 <div className="row" style={{}}>
                                                     <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 " style={{}} >
@@ -214,7 +214,7 @@ export default class Resume extends React.Component {
                                 >
                                     <section className="panel turqoise">
                                         <div style={{}}>
-                                            <div style={{ marginTop: '20px' }}>
+                                            <div className="prBigDiv" style={{}}>
                                                 <div style={{ }}>
                                                     <div className="container-fluid" style={{ backgroundColor: '', }}>
                                                         <div className="row" style={{}}>
@@ -263,7 +263,7 @@ export default class Resume extends React.Component {
                                 >
                                     <section className="panel green">
                                         <div style={{}}>
-                                            <div style={{ marginTop: '20px' }}>
+                                            <div className="prBigDiv" style={{  }}>
                                                 <div className="container-fluid" style={{ backgroundColor: '', height: '120vh' }}>
                                                     <div className="row" style={{}}>
                                                         <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 " style={{}} >
