@@ -2,8 +2,8 @@ import React from 'react'
 import "./imageComponent.css"
 import Image from '../ImageComponent/image.jpeg'
 import Image2 from './image2.jpeg'
-import Image3 from './image3.jpeg'
-import Image4 from './image4.jpeg'
+import Image3 from './Image6.jpeg'
+import Image4 from './Image6.jpg'
 import { Controller, Scene } from 'react-scrollmagic';
 import { Tween, Timeline, SplitLetters } from 'react-gsap';
 
@@ -159,7 +159,7 @@ export default class ImageComponent extends React.Component {
 
 
 
-                <div className="fourthContainer">
+                <div className="fourthContainer" style={{}}>
                     <Controller>
                         <Scene
                             triggerHook="onLeave"
@@ -169,16 +169,18 @@ export default class ImageComponent extends React.Component {
                             <Timeline
                                 wrapper={<div id="pinContainer" />}
                             >
-                                <section className="panel blue">
-                                    <div style={{}}>
+                                <section className="panel blue graduationEvent ">
+                                    <div className="">
                                         <div style={{ marginTop: '120px' }}>
-                                            <div className="container-fluid" style={{ backgroundColor: '', }}>
+                                            <div className="container-fluid" style={{ backgroundColor: '', height: '120vh' }}>
                                                 <div className="row" style={{}}>
                                                     <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 " style={{}} >
                                                         <div className="projectDiv2" >
                                                             <strong style={{ fontSize: '27px', color: 'white', fontWeight: 'bolder', fontFamily: 'sans-serif' }}>ACHIEVEMENTS</strong>
-                                                            <div style={{marginTop:'100px'}}>
-                                                                <p style={{ marginTop: '30px', color: 'white', fontSize: '25px', fontFamily: 'Gill Sans' }}> - Best Graduation Project at Imam Mohammed Bin Saud Islamic University</p>
+                                                            <div style={{ marginTop: '100px' }}>
+                                                                <p style={{ marginTop: '30px', color: 'white', fontSize: '25px', fontFamily: 'Gill Sans' }}> - Best Graduation Project at Imam Mohammed Bin Saud Islamic University (2019)
+                                                                <span style={{ display: 'block', marginTop: '20px', fontSize: '18px', fontFamily: 'Optima', width: '80%', margin: 'auto' }}>at the graduation projects organized by the Imam Mohammed Bin Saud university annually, we got the best graduation project among many projects participants.  </span>
+                                                                </p>
                                                             </div>
 
                                                         </div>
@@ -213,26 +215,34 @@ export default class ImageComponent extends React.Component {
                                     <section className="panel turqoise">
                                         <div style={{}}>
                                             <div style={{ marginTop: '120px' }}>
-                                            <div style={{ marginTop: '120px' }}>
-                                            <div className="container-fluid" style={{ backgroundColor: '', }}>
-                                                <div className="row" style={{}}>
-                                                    <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 " style={{}} >
-                                                        <div className="projectDiv2" >
-                                                            <strong style={{ fontSize: '27px', color: 'white', fontWeight: 'bolder', fontFamily: 'sans-serif' }}>ACHIEVEMENTS</strong>
-                                                            <div style={{marginTop:'100px'}}>
-                                                                <p style={{ marginTop: '30px', color: 'white', fontSize: '25px', fontFamily: 'Gill Sans' }}> - Best Graduation Project at Imam Mohammed Bin Saud Islamic University</p>
+                                                <div style={{ marginTop: '120px' }}>
+                                                    <div className="container-fluid" style={{ backgroundColor: '', }}>
+                                                        <div className="row" style={{}}>
+                                                            <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 " style={{}} >
+                                                                <div className="projectDiv2" >
+                                                                    <strong style={{ fontSize: '27px', color: 'white', fontWeight: 'bolder', fontFamily: 'sans-serif' }}>ACHIEVEMENTS</strong>
+                                                                    <div style={{ marginTop: '100px' }}>
+                                                                        <p style={{ marginTop: '30px', color: 'white', fontSize: '25px', fontFamily: 'Gill Sans' }}> - Best Live Demo Award by Zayed University (2019)
+                                                                <span style={{ display: 'block', marginTop: '20px', fontSize: '18px', fontFamily: 'Optima', width: '70%', margin: 'auto', marginTop: '20px' }}> We participated in the Eleventh Undergraduate Research Conference by Zayed University, Dubai, and we won Best Live Demo Award for our graduation project. There were many participants from different universities accross the Arab world.  </span>
+                                                                        </p>
+
+                                                                    </div>
+
+                                                                </div>
+
+
                                                             </div>
 
-                                                        </div>
+                                                            <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 bigdiv" style={{}}>
+                                                                <div className="projectDiv2" style={{}}>
+                                                                    <div>
+                                                                        <img src={Image4} className="graduationImage" style={{ ...styles, opacity: this.state.opacity, transform: 'scale(' + this.state.scale + ')' }} onMouseEnter={() => this.handleEnter(1)} onMouseLeave={() => this.handleLeave(1)} />
+                                                                    </div>
 
+                                                                </div>
 
-                                                    </div>
-
-                                                    <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 bigdiv" style={{}}>
-                                                        <div className="projectDiv2" style={{}}>
-                                                            <div>
-                                                                <img src={Image3} className="graduationImage" />
                                                             </div>
+
 
                                                         </div>
 
@@ -240,11 +250,6 @@ export default class ImageComponent extends React.Component {
 
 
                                                 </div>
-
-                                            </div>
-
-
-                                        </div>
 
                                             </div>
 
@@ -259,31 +264,102 @@ export default class ImageComponent extends React.Component {
                                     <section className="panel green">
                                         <div style={{}}>
                                             <div style={{ marginTop: '120px' }}>
+                                                <div className="container-fluid" style={{ backgroundColor: '', height: '120vh' }}>
+                                                    <div className="row" style={{}}>
+                                                        <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 " style={{}} >
+                                                            <div className="projectDiv2" >
+                                                                <strong style={{ fontSize: '27px', color: 'white', fontWeight: 'bolder', fontFamily: 'sans-serif' }}>ACHIEVEMENTS</strong>
+                                                                <div style={{ marginTop: '100px' }}>
+                                                                    <p style={{ marginTop: '30px', color: 'white', fontSize: '25px', fontFamily: 'Gill Sans' }}> - Second Place Winner over Saudi Arabia in Programming Jam 5.0 (2019)
+                                                                <span style={{ display: 'block', marginTop: '20px', fontSize: '18px', fontFamily: 'Optima', width: '80%', margin: 'auto' }}>We won the second place over Saudi Arabia in Programming Jam 5.0, a programming contest organized by Prince Sultan University (the ACM chapter in Saudi Arabia), there were 108 teams (500 students) from 16 universities across Saudi Arabia    </span>
+                                                                    </p>
+                                                                </div>
+
+                                                            </div>
+
+
+                                                        </div>
+
+                                                        <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 bigdiv" style={{}}>
+                                                            <div className="projectDiv2" style={{}}>
+                                                                <div>
+                                                                    <img src={Image3} className="graduationImage1" style={{ ...styles, opacity: this.state.opacity, transform: 'scale(' + this.state.scale + ')' }} onMouseEnter={() => this.handleEnter(1)} onMouseLeave={() => this.handleLeave(1)} />
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+
+
+                                                    </div>
+
+                                                </div>
 
 
                                             </div>
 
+
                                         </div>
                                     </section>
                                 </Tween>
-                                {/* <Tween
-                                    from={{ y: '-100%' }}
-                                    to={{ y: '0%' }}
-                                >
-                                    <section className="panel bordeaux"> <div style={{display:'grid',gridTemplateColumns:'auto auto',gridGap:'10px',marginTop:'200px'}}>
-                                        <div style={{marginTop:'120px'}}>
-                                            <p style={{fontSize:'25px',color:'black'}}>"Best Graduation Project 2019"</p>
-                                           
-                                        </div>
-                                        <div>
-                                        <img src={Image2}  className="celimage"/>
-                                        </div>
-                                    </div>
-                                    </section>
-                                </Tween> */}
+
                             </Timeline>
                         </Scene>
                     </Controller>
+
+                </div>
+                <div className="container-fluid main3" style={{ backgroundColor: '', }}>
+                    <div className="row image1" style={{}}>
+                        <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 " style={{}} >
+                            <div className="projectDiv3" >
+                                <strong style={{ fontSize: '27px', color: 'white', fontWeight: 'bolder', fontFamily: 'sans-serif' }}>SKILLS</strong>
+                                <div className="skills">
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', color: 'white', width: '100%' }}>HTML</p>
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>CSS</p>
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>React</p>
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>Bootstrap</p>
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>Material Ui</p>
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>jQuery</p>
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>Django Rest Framework</p>
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>MySQL</p>
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>JavaScript</p>
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>C++</p>
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>java</p>
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>Scrum</p>
+
+                                </div>
+                                <div>
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 bigdiv" style={{}}>
+                        <div className="projectDiv2" >
+                                <strong style={{ fontSize: '27px', color: 'white', fontWeight: 'bolder', fontFamily: 'sans-serif' }}>SOFT SKILLS</strong>
+                                <div className="skills">
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', color: 'white', width: '100%' }}>HardWorking</p>
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>Teamwork</p>
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>Communication</p>
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>Determination</p>
+                                    <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>leadership</p>
+                                   
+                                </div>
+                                <div>
+
+
+                                </div>
+                            </div>
+
+                           
+
+                        </div>
+
+
+                    </div>
 
                 </div>
 

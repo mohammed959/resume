@@ -11,6 +11,8 @@
   
 }
 
+
+
 .image{
   transition: transform 1s;
 }
@@ -23,13 +25,32 @@
   font-size: 23px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.skills{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+  margin-top: 40px;
+  grid-gap: 10px  ;
+  justify-content: flex-end;
+  
+}
 
+@media screen and (min-width:650px){
+  .main3{
+    
+    background-color: lightpink;
+  }
+}
 
 
 @media screen and (min-width: 360px){
   .paragraph2{
     
   }
+  .main3{
+    background-color: #29394d;
+   
+  }
+  
   
   .image{
     width:100%;
@@ -37,6 +58,9 @@
   }
   .graduationImage{
     width: 60%;
+  }
+  .graduationImage1{
+    width: 70%;
   }
   .mainthirdContainer{
     display: grid;
@@ -58,11 +82,17 @@
     margin-top: 60px;
   }
   .projectDiv2{
-    margin-top: 60px;
+    margin-top: 0px;
   }
 }
 
 @media screen and (min-width: 880px) {
+  .main3{
+    background-color: #29394d;
+    height: 100vh;
+
+  }
+  
   
   .main::after
 {
@@ -108,15 +138,29 @@
     
     border-right  : 1px solid white;
     
-    margin-top:120px;
+    margin-top:100px;
     
     height: 100%;
    
 
   }
+  .projectDiv3{
+    width: 100%;
+    margin-top:100px;
+    
+    height: 100%;
+
+  }
   .graduationImage{
     width: 60%;
     clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+  }
+  .graduationImage1{
+    width: 60%;
+   
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+
+
   }
   .projectDiv1{
     width: 100%;
@@ -138,7 +182,7 @@
   
   .secondContainer{
     
-      height:70vh;
+      
       
       
   }
