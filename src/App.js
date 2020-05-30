@@ -1,6 +1,5 @@
 import React from 'react';
-import ImageContainer from './container/ImageComponent/imageComponent'
-import ShortPreveiw from './container/shortpreveiw/ShortPreview'
+import ImageContainer from './container/Resume/Resume'
 import './App.css';
 
 function App() {

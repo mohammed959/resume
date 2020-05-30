@@ -1,16 +1,16 @@
 import React from 'react'
-import "./imageComponent.css"
-import Image from '../ImageComponent/image.jpeg'
-import Image2 from './image2.jpeg'
-import Image3 from './Image6.jpeg'
-import Image4 from './Image6.jpg'
+import "./Resume.css"
+import Image from './images/image.jpeg'
+import Image2 from './images/image2.jpeg'
+import Image3 from './images/Image6.jpeg'
+import Image4 from './images/Image6.jpg'
 import { Controller, Scene } from 'react-scrollmagic';
 import { Tween, Timeline, SplitLetters } from 'react-gsap';
 
 const styles = {
     transition: 'all 2s ease-in'
 }
-export default class ImageComponent extends React.Component {
+export default class Resume extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -311,7 +311,7 @@ export default class ImageComponent extends React.Component {
                 <div className="container-fluid main3" style={{ backgroundColor: '', }}>
                     <div className="row image1" style={{}}>
                         <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 " style={{}} >
-                            <div className="projectDiv3" style={{marginTop:'130px'}} >
+                            <div className="projectDiv3" style={{ marginTop: '130px' }} >
                                 <strong style={{ fontSize: '27px', color: 'white', fontWeight: 'bolder', fontFamily: 'sans-serif' }}>SKILLS</strong>
                                 <div className="skills">
                                     <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', color: 'white', width: '100%' }}>HTML</p>
@@ -338,7 +338,7 @@ export default class ImageComponent extends React.Component {
                         </div>
 
                         <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 bigdiv" style={{}}>
-                        <div className="projectDiv3" style={{marginTop:'130px'}} >
+                            <div className="projectDiv3" style={{ marginTop: '130px' }} >
                                 <strong style={{ fontSize: '27px', color: 'white', fontWeight: 'bolder', fontFamily: 'sans-serif' }}>SOFT SKILLS</strong>
                                 <div className="skills">
                                     <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', color: 'white', width: '100%' }}>HardWorking</p>
@@ -346,7 +346,7 @@ export default class ImageComponent extends React.Component {
                                     <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>Communication</p>
                                     <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>Determination</p>
                                     <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', width: '100%', color: 'white' }}>leadership</p>
-                                   
+
                                 </div>
                                 <div>
 
@@ -354,7 +354,7 @@ export default class ImageComponent extends React.Component {
                                 </div>
                             </div>
 
-                           
+
 
                         </div>
 
