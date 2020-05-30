@@ -214,7 +214,7 @@ export default class ImageComponent extends React.Component {
                                 >
                                     <section className="panel turqoise">
                                         <div style={{}}>
-                                            <div style={{ marginTop: '70px' }}>
+                                            <div style={{ marginTop: '60px' }}>
                                                 <div style={{ marginTop: '120px' }}>
                                                     <div className="container-fluid" style={{ backgroundColor: '', }}>
                                                         <div className="row" style={{}}>
@@ -263,7 +263,7 @@ export default class ImageComponent extends React.Component {
                                 >
                                     <section className="panel green">
                                         <div style={{}}>
-                                            <div style={{ marginTop: '80px' }}>
+                                            <div style={{ marginTop: '60px' }}>
                                                 <div className="container-fluid" style={{ backgroundColor: '', height: '120vh' }}>
                                                     <div className="row" style={{}}>
                                                         <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 " style={{}} >
