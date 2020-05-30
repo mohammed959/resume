@@ -67,13 +67,13 @@ export default class ImageComponent extends React.Component {
 
                 <div className="container-fluid main" style={{ backgroundColor: '', }}>
                     <div className="row image1">
-                        <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 " >
+                        <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 " >
                             <img src={Image} className="image" />
 
 
                         </div>
 
-                        <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12" style={{ marginTop: '80px' }}>
+                        <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12" style={{ marginTop: '80px' }}>
                             <strong className="e" style={{ display: 'block', color: 'white' }}>Mohammed Nasser Abdullah Awadh</strong>
                             <span style={{ marginTop: '10px', display: 'block', color: 'white' }} className="">Front End Developer at Hads_</span>
                             <div style={{ border: '1px solid lightgrey', marginTop: '30px' }}></div>
@@ -171,7 +171,7 @@ export default class ImageComponent extends React.Component {
                             >
                                 <section className="panel blue graduationEvent ">
                                     <div className="">
-                                        <div style={{ marginTop: '120px' }}>
+                                        <div style={{ marginTop: '80px' }}>
                                             <div className="container-fluid" style={{ backgroundColor: '', height: '120vh' }}>
                                                 <div className="row" style={{}}>
                                                     <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 " style={{}} >
@@ -214,7 +214,7 @@ export default class ImageComponent extends React.Component {
                                 >
                                     <section className="panel turqoise">
                                         <div style={{}}>
-                                            <div style={{ marginTop: '120px' }}>
+                                            <div style={{ marginTop: '70px' }}>
                                                 <div style={{ marginTop: '120px' }}>
                                                     <div className="container-fluid" style={{ backgroundColor: '', }}>
                                                         <div className="row" style={{}}>
@@ -263,7 +263,7 @@ export default class ImageComponent extends React.Component {
                                 >
                                     <section className="panel green">
                                         <div style={{}}>
-                                            <div style={{ marginTop: '120px' }}>
+                                            <div style={{ marginTop: '80px' }}>
                                                 <div className="container-fluid" style={{ backgroundColor: '', height: '120vh' }}>
                                                     <div className="row" style={{}}>
                                                         <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 " style={{}} >
@@ -311,7 +311,7 @@ export default class ImageComponent extends React.Component {
                 <div className="container-fluid main3" style={{ backgroundColor: '', }}>
                     <div className="row image1" style={{}}>
                         <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 " style={{}} >
-                            <div className="projectDiv3" >
+                            <div className="projectDiv3" style={{marginTop:'130px'}} >
                                 <strong style={{ fontSize: '27px', color: 'white', fontWeight: 'bolder', fontFamily: 'sans-serif' }}>SKILLS</strong>
                                 <div className="skills">
                                     <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', color: 'white', width: '100%' }}>HTML</p>
@@ -338,7 +338,7 @@ export default class ImageComponent extends React.Component {
                         </div>
 
                         <div className="col-lg-6 col-xl-6 col-md-12 col-sm-12 col-xs-12 bigdiv" style={{}}>
-                        <div className="projectDiv2" >
+                        <div className="projectDiv3" style={{marginTop:'130px'}} >
                                 <strong style={{ fontSize: '27px', color: 'white', fontWeight: 'bolder', fontFamily: 'sans-serif' }}>SOFT SKILLS</strong>
                                 <div className="skills">
                                     <p style={{ padding: '20px', borderRadius: '10px', backgroundColor: '#4c5969', color: 'white', width: '100%' }}>HardWorking</p>

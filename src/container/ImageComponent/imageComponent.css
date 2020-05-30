@@ -86,7 +86,7 @@
   }
 }
 
-@media screen and (min-width: 880px) {
+@media screen and (min-width: 1000px) {
   .main3{
     background-color: #29394d;
     height: 100vh;
@@ -138,7 +138,7 @@
     
     border-right  : 1px solid white;
     
-    margin-top:100px;
+    margin-top:0px;
     
     height: 100%;
    
